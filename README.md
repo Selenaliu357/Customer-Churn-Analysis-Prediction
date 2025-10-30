@@ -9,5 +9,18 @@ In this project we will explore the Telco Customer Churn dataset to predict chur
 - PaymentMethod– The method the customer uses for payments.
 - Churn – The target variable i.e Yes for customer churned and No for customer stayed
 
-Steps:
+## Steps:
 #### Step 1: Importing Libraries and Dataset
+#### Step 2: Data Preprocessing
+- Handling Missing and Incorrect Values
+- Handling Categorical Variables
+- Feature Selection and Splitting Data
+- Feature Scaling
+#### Step3: Model Training and Prediction
+- Training the model we use Random Forest Classifier
+#### Step 4: Model Evaluation
+- Accuracy Score: to measure model performance we calculate accuracy using the accuracy_score function
+- Confusion Matrix and Performance Metrics: we evaluate precision, recall and accuracy using a confusion matrix
+
+## End
+Confusion matrix shows how well the model predicts customer churn. It correctly identifies 924 non-churners and 181 churners. However 117 non-churners are wrongly classified as churners and 187 churners are missed. The high number of missed churners suggests the model may need further tuning.
